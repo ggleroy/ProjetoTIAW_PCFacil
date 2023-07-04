@@ -1,0 +1,15 @@
+{
+    "nome": "sendgrid-tutorial",
+    "versao": "1.0",
+    "descrição": "",
+    "main": "index.html",
+    "scripts": {
+        "teste": "echo\"Erro: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@sendgrid/mail": "^7.7.0"
+    }
+}
