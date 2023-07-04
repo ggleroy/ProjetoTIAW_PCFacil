@@ -6,9 +6,7 @@
 * Henry Sven Ribeiro da Costa
 * Ian Matsuhara Ferraz
 * Julia Gabriela de Resende
-* Kayler de Freitas Moura
 * Otávio Augusto Dutra Costa
-* Yan Esquerdo Norte
 
 ## Professores responsáveis
 
