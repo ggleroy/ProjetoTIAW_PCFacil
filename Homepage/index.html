@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pc Facil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <a href="https://ibb.co/3sR873q"><img src="https://i.ibb.co/yR4MX91/d753339d-87eb-4d44-b7e8-29aa2fab1c1b.jpg" alt="d753339d-87eb-4d44-b7e8-29aa2fab1c1b" width="400" 
+                    height="65"></a>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-light" href="carrinho.html">Carrinho</a>
+
+                    </div>
+                </div>
+
+                <form class="d-flex" role="search">
+                    
+                    <button class="btn btn-outline-primary bg-light" type="submit">Sign-Up</button>
+                    <button class="btn btn-outline-light bg-primary" type="submit">Log In</button>
+                </form>
+        </div>
+    </nav>
+
+    <div class="container align-item-center">
+        <div class="row">
+            
+            <!--carousel-->
+            <div class="col-md-9 col-lg-9 my-2">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
+                            <a href="https://ibb.co/JmkxtGG"><img src="https://i.ibb.co/RYHhbss/pexels-andrea-piacquadio-840996.jpg" alt="pexels-soumil-kumar-735911" class="imagemcarousel w-100" style="height: auto" border="0"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://ibb.co/Fhqt5Kd"><img src="https://i.ibb.co/51xVr6J/pexels-soumil-kumar-735911.jpg" alt="pexels-andrea-piacquadio-840996" class="imagemcarousel w-100" style="height: auto" border="0"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-md-3 my-2 bg-light border rounded  barra-da-esquerda">
+                <form id="enviar">
+                <h3 class="text-center mt-5">
+                    Entenda sua necessidade
+                </h3>
+                <br>
+                <select id="uso1" class="form-select p-2" aria-label="Default select example">
+                    <option selected>Uso da Máquina</option>
+                    <option name="uso" value="Jogos">Jogos</option>
+                    <option name="uso" value="Workstation">Workstation</option>
+                    <option name="uso" value="Uso Leve">Uso Leve</option>
+                </select>
+                <br>
+                <select id="software1" class="form-select p-2" aria-label="Default select example">
+                    <option name="software" selected>Software de uso</option>
+                    <option name="software" value="Não se aplica">Não se aplica</option>
+                    <option name="software" value="Adobe Photoshop">Adobe Photoshop</option>
+                    <option name="software" value="Adobe Premiere">Adobe Premiere</option>
+                    <option name="software" value="Lumion">Lumion</option>
+                    <option name="software" value="Cinema4D">Cinema4D</option>
+                    <option name="software" value="AutoCAD">AutoCAD</option>
+                    <option name="software" value="Blender">Blender</option>
+                </select>
+                <br>
+                <select id="game1" class="form-select p-2" aria-label="Default select example">
+                    <option selected>Game de escolha</option>
+                    <option name="game" value="Não se aplica">Não se aplica</option>
+                    <option name="game" value="CS:GO">CS:GO</option>
+                    <option name="game" value="LOL">LOL</option>
+                    <option name="game" value="DOTA2">DOTA2</option>
+                    <option name="game" value="Stardew Valley">Stardew Valley</option>
+                    <option name="game" value="Minecraft">Minecraft</option>
+                    <option name="game" value="Dark Souls">Dark Souls</option>
+                    <option name="game" value="Campo Minado">Campo Minado</option>
+                </select>
+                <br>
+                <select id="performance1" class="form-select p-2" aria-label="Default select example">
+                    <option selected>Performance esperada</option>
+                    <option name="performance" value="Baixa">Baixa</option>
+                    <option name="performance" value="Média">Média</option>
+                    <option name="performance" value="Alta">Alta</option>
+                    <option name="performance" value="Ultra">Ultra</option>
+                </select>
+                <br>
+                <select id="price" class="form-select p-2" aria-label="Default select example">
+                    <option selected>Preço Esperado</option>
+                    <option name="preco" value="- que R$2.000,00">- que R$2.000,00</option>
+                    <option name="preco" value="R$2.000,00-R$3.000,00">R$2.000,00-R$3.000,00</option>
+                    <option name="preco" value="R$3.000,00-R$5.000,00">R$3.000,00-R$5.000,00</option>
+                    <option name="preco" value="R$5.000,00-R$9.000,00">R$5.000,00-R$9.000,00</option>
+                    <option name="preco" value="+ que R$9.000,00">+ que R$9.000,00</option>
+                </select>
+                <br>
+                <br>
+                <div class="d-grid gap-2 mb-3">
+                    <button class="btn btn-success" id="btnEnvio" type="submit">Enviar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            
+        </div>
+
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="text-center">
+                        Métodos de Pagamentos
+                    </h4>
+                    <a class="opcoespagamentos" href=""><img src="https://i.ibb.co/p4V7jZK/download.png" width="100%"></a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4 class="text-center mt-2">
+                       
+                        Mídias Socias
+                    </h4>
+                    
+                    <a class="text-center" href=""><img src="https://i.ibb.co/x3HW39k/Screenshot-2023-04-02-at-18-03-31.png" width="45%" ></a>
+
+                </div>
+                <div class="col-md-4 mt-2 text-center">
+                    <h4 class="text-center">
+                        Contato
+                    </h4>
+                    <a class="whatsapp" href=""><img src="https://i.ibb.co/hg2NrY8/Screenshot-2023-04-02-at-18-06-39.png" width="40%"></a>
+                    
+                </div>
+            </div>
+            <p class="text-center">
+                @ 2023 pcfacil.com.br
+            </p>
+        </footer>
+        
+</body>
+
+</html>
