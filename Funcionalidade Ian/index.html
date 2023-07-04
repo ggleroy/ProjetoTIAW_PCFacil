@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script type="text/javascript" src="./assets/scripts/app.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SETUP</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+
+
+
+</head>
+
+<body>
+  <!--Link de instalação do Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+<!--Inicio do header-->
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(134, 81, 6) ; ">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Fim do Header-->
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <h4 class="mb-3">Encontre o PC certo para você</h4>
+    <form id="ProductForm">
+      <div class="mb-3">
+        <label class="form-label">Selecione o nível de performance</label>
+        <div>
+          <input type="radio" id="performance1" name="performance" value="1">
+          <label for="performance1">1 (Baixa)</label>
+        </div>
+        <div>
+          <input type="radio" id="performance2" name="performance" value="2">
+          <label for="performance2">2 (Média)</label>
+        </div>
+        <div>
+          <input type="radio" id="performance3" name="performance" value="3">
+          <label for="performance3">3 (Alta)</label>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-primary" type="submit" onclick="ResultadoDaPesquisa()">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+<script>
+  document.getElementById('ProductForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const formObject = Object.fromEntries(formData.entries());
+    console.log(formObject);
+    SendToJson2(formObject);
+
+  });
+</script>
+
+
+
+
+
+</body>
+<!--fechamento do body-->
+</html>
+
+
+
+
+

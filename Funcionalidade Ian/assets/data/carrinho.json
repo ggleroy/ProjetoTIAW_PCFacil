@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "produtos":[1,4,7,10,13,16,19,22],
+        "performance": 1
+    },
+    {
+        "id": 2,
+        "produtos":[2,5,8,11,14,17,20,23],
+        "performance" : 2
+    },
+    {
+        "id": 3,
+        "produtos":[3,6,9,12,15,18,21,24],
+        "performance" : 3
+    }
+]

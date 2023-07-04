@@ -1,0 +1,225 @@
+[
+        {
+            "id": 1,
+            "nome": "Placa de vídeo Nvidia GTX1650 4GB",
+            "descricao":"placa de entrada roda alguns jogos médios",
+            "valor": "R$ 1.300,00",
+            "categoria": "placa de vídeo",
+            "marca": "Nvidia",
+            "picture":"gtx1650.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Placa de vídeo AMD Radeon RX 6700 XT 12GB",
+            "descricao":"placa de vídeo mediana, pode rodar alguns jogos pesados",
+            "valor": "R$ 2.800,00",
+            "categoria": "placa de vídeo",
+            "marca": "AMD",
+            "picture":"rx6700xt.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Placa de vídeo Nvidia RTX 4090 24GB",
+            "descricao":"placa de vídeo top de linha, com uma potência enorme, roda qualquer coisa",
+            "valor": "R$ 15.600",
+            "categoria": "placa de vídeo",
+            "marca": "Nvidia",
+            "picture":"rtx4090.jpg"
+        },
+
+        {
+            "id": 4,
+            "nome": "Processador Intel Core i3 10105F 4-Cores 8-Threads",
+            "descricao":"processador de entrada, para rodar programas leves",
+            "valor": "R$ 820,00",
+            "categoria": "processador",
+            "marca": "Intel",
+            "picture":"i3.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Processador AMD Ryzen 7 5700G, 8-Cores 16-Threads, vídeo integrado",
+            "descricao":"processador mediano, pode rodar alguns jogos mais pesados",
+            "valor": "R$ 3.000",
+            "categoria": "processador",
+            "marca": "AMD",
+            "picture":"r7.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "Processador Intel Core i9 12900 16-Cores 24-Threads",
+            "descricao":"processador muito potente, roda programas pesados de uso profissional e até mesmo jogos mais pesados.",
+            "valor": "R$ 5.000,00",
+            "categoria": "processador",
+            "marca": "Intel",
+            "picture":"i9.jpg"
+        },
+
+        {
+            "id": 7,
+            "nome": "Fonte PowerX 500W PX500 ATX Sata c/ Cabo",
+            "descricao":"fonte de entrada, aguenta peças com gasto baixo de energia",
+            "valor": "R$ 188,00",
+            "categoria": "fonte",
+            "marca": "PowerX",
+            "picture":"fontePowerx.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "Fonte Corsair CX750M, 750W, 80 Plus Bronze, PFC Ativo, Semi Modular",
+            "descricao":"fonte mediana, suporta um gasto maior de energia,com algumas opções de modularização",
+            "valor": "R$ 1.010,00",
+            "categoria": "fonte",
+            "marca": "Corsair",
+            "picture":"fonteCorsair.jpg"
+        },
+        {
+            "id": 9,
+            "nome": "Fonte Cooler Master XG850 Platinum, 850W, 80 Plus Platinum, Full Modular, PFC Ativo",
+            "descricao":"fonte de alto nível, com uma ótima eficiência e customização",
+            "valor": "R$ 2.150,00",
+            "categoria": "fonte",
+            "marca": "Cooler Master",
+            "picture":"fonteCoolerMaster.jpg"
+        },
+
+        {
+            "id": 10,
+            "nome": "Memória XPG Gammix D10 8GB, 3200MHz, DDR4, CL16",
+            "descricao":"quantidade de memória básica, te permite rodar alguns programas simultaneamente",
+            "valor": "R$ 211,00",
+            "categoria": "memória RAM",
+            "marca": "XPG",
+            "picture":"memoriaXPG.jpg"
+        },
+        {
+            "id": 11,
+            "nome": "Memória Kingston Fury Beast, RGB, 16GB, 3200MHz, DDR4, CL16",
+            "descricao":"boa quantidade de memória, te permite abrir mais programas médios",
+            "valor": "R$ 447,00",
+            "categoria": "memória RAM",
+            "marca": "Kingston",
+            "picture":"memoriaKingston.jpg"
+        },
+        {
+            "id": 12,
+            "nome": "Memória Rise Mode Z, 32GB, 4800MHz, DDR5, CL40",
+            "descricao":"ótima quantidade de memória, pra você abrir diversos programas pesados",
+            "valor": "R$ 880,00",
+            "categoria": "memória RAM",
+            "marca": "Rise Mode",
+            "picture":"memoriaRise.jpg"
+        },
+
+        {
+            "id": 13,
+            "nome": "Placa Mãe Biostar A320MH, Chipset A320, AMD AM4, mATX, DDR4",
+            "descricao":"placa mãe de entrada, boa para um uso mais leve do pc com partes menos potentes",
+            "valor": "R$ 600,00",
+            "categoria": "placa mãe",
+            "marca": "Biostar",
+            "picture":"placaMaeBiostar.jpg"
+        },
+        {
+            "id": 14,
+            "nome": "Placa Mãe Asus TUF GAMING B460M-PLUS, Chipset B460, Intel LGA 1200, mATX, DDR4",
+            "descricao":"placa mãe mediana, boa opção para começar a aumentar a performance do pc",
+            "valor": "R$ 1.340,00",
+            "categoria": "placa mãe",
+            "marca": "Asus",
+            "picture":"placaMaeAsus.jpg"
+        },
+        {
+            "id": 15,
+            "nome": "Placa Mãe Asus ROG Strix Z690-F Gaming WiFi, Chipset Z690, Intel LGA 1700, ATX, DDR5",
+            "descricao":"placa mãe top de linha, recomendada para partes mais potentes",
+            "valor": "R$ 6.990,00",
+            "categoria": "placa mãe",
+            "marca": "Asus",
+            "picture":"placaMaeAsusZ.jpg"
+        },
+
+        {
+            "id": 16,
+            "nome": "HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB",
+            "descricao":"HD com bom armazenamento, se você procura somente espaço é uma boa opção",
+            "valor": "R$ 390,00",
+            "categoria": "armazenamento",
+            "marca": "Seagate",
+            "picture":"armazenamentoSeagate.jpg"
+        },
+        {
+            "id": 17,
+            "nome": "SSD Hikvision E100 1TB, SATA III Leitura 560MBs e Gravação 500MBs",
+            "descricao":"SSD mediano, possui um bom armazenamento e é consideravelmente mais rápido que um HD",
+            "valor": "R$ 740,00",
+            "categoria": "armazenamento",
+            "marca": "Hikivision",
+            "picture":"armazenamentoHikivision.jpg"
+        },
+        {
+            "id": 18,
+            "nome": "SSD Kingston Fury Renegade, 4TB, M.2 NVMe, 2280, Leitura 7300MBs e Gravação 7000MBs",
+            "descricao":"SSD top de linha, possuindo ambos armazenamento e velocidade incríveis",
+            "valor": "R$ 4.300,00",
+            "categoria": "armazenamento",
+            "marca": "Kingston",
+            "picture":"armazenamentoKingston.jpg"
+        },
+
+        {
+            "id": 19,
+            "nome": "Cooler para Processador Redragon Tyr, 120mm, LED Blue, Intel-AMD",
+            "descricao":"cooler de entrada, suportando o uso de alguns programas leves",
+            "valor": "R$ 160,00",
+            "categoria": "cooler",
+            "marca": "Redragon",
+            "picture":"coolerRedragon.jpg"
+        },
+        {
+            "id": 20,
+            "nome": "Water Cooler SuperFrame ISENGARD, ARGB, 120mm, Intel-AMD, Controladora",
+            "descricao":"water cooler mediano, suporta temperaturas médias",
+            "valor": "R$ 430,00",
+            "categoria": "cooler",
+            "marca": "Superframe",
+            "picture":"coolerSuperframe.jpg"
+        },
+        {
+            "id": 21,
+            "nome": "Water Cooler NZXT Kraken Z63, RGB 280mm, INTEL/AMD",
+            "descricao":"water cooler top de linha, mantém seu pc frio sob as cargas mais pesadas",
+            "valor": "R$ 2.590,00",
+            "categoria": "cooler",
+            "marca": "NZXT",
+            "picture":"coolerNZXT.jpg"
+        },
+
+        {
+            "id": 22,
+            "nome": "Gabinete Gamer Liketec Cycle, Mid Tower, Acrílico, M-ATX, Black",
+            "descricao":"gabinete de entrada com boa ventilação",
+            "valor": "R$ 300,00",
+            "categoria": "gabinete",
+            "marca": "Liketec",
+            "picture":"gabineteLiketec.jpg"
+        },
+        {
+            "id": 23,
+            "nome": "Gabinete Gamer Montech Air 1000 Silent, Mid Tower, Black, ATX",
+            "descricao":"gabinete discreto e de boa qualidade",
+            "valor": "R$ 750,00",
+            "categoria": "gabinete",
+            "marca": "Montech",
+            "picture":"gabineteMontech.jpg"
+        },
+        {
+            "id": 24,
+            "nome": "Gabinete Gamer GameMax Infinit Abyss M908-TR ARGB, Mid Tower, Com 1 Fan, Vidro Temperado",
+            "descricao":"gabinete bem espaçoso e com bastante estilo",
+            "valor": "R$ 840,00",
+            "categoria": "gabinete",
+            "marca": "GameMax",
+            "picture":"gabineteGameMax.jpg"
+        }
+ ]

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script type="text/javascript" src="./assets/scripts/app.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SETUP</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+
+
+
+</head>
+
+<body>
+  <!--Link de instalação do Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+<!--Inicio do header-->
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(134, 81, 6) ; ">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Fim do Header-->
+
+  <br>
+
+
+
+<div class = "row col-sm-12 m-0">
+  <div class = "col">
+    <div class="container col-sm-12">
+      <div class="row justify-content-center">
+        <div id="cardContainer" class="row"></div>
+        <script type="text/javascript">
+          Shower();
+          console.log(customizada_scout);
+          for ( count = 0 ; count < customizada_scout.length ; count++) {
+            console.log('CARD CREATED FLAG');
+            let card =`
+              <div class="col-md-4 col-sm-4">
+                <div class="card h-100">
+                      <img src="assets/pictures/${customizada_scout[count].picture}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">${customizada_scout[count].nome}</h5>
+                        <p class="card-text">${customizada_scout[count].descricao}</p>
+                      </div>
+                      <div class="card-footer">
+                            <small class="text-body-secondary">${customizada_scout[count].valor}</small>
+                            <button class="btn btn-primary" onclick="addToCart(${customizada_scout[count].id})">Adicionar ao Carrinho</button>
+                       </div>
+                       <div class="card-footer">
+                            <small class="text-body-secondary">${customizada_scout[count].valor}</small>
+                            <button class="btn btn-primary btn-danger" onclick="deleteToCart(${customizada_scout[count].id})">Deletar ao Carrinho</button>
+                       </div>
+                    </div>
+                  </div>
+            `;
+            cardContainer.innerHTML += card;
+          }
+          </script>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <h4 class="mb-3">DÊ UM NOME PARA SUA BUILD!</h4>
+    <form id="ProductForm">
+      <div class="mb-3">
+        <label for="buildName" class="form-label">Digite o nome</label>
+        <input type="text" id="buildName" name="buildName" value="">
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.getElementById('ProductForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const formObject = Object.fromEntries(formData.entries());
+    console.log(formObject);
+    SendToJson3(formObject);
+    StoreBuild();
+  });
+</script>
+
+
+
+
+
+</body>
+<!--fechamento do body-->
+</html>
+
+
+
+
+
