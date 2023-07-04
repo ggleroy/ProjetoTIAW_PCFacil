@@ -83,12 +83,12 @@
 
         <!--Comment Area-->
         <div class="comment-area hide" id="comment-area">
-            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
-            <input type="submit" value="submit">
+            <textarea name="comment" id="comment-input" placeholder="comment here ... "></textarea>
+            <input type="button" value="submit" onclick="submitComment()">
         </div>
-
+        
         <!--Comments Section-->
-        <div class="comments-container">
+        <div class="comments-container" id="comment-list">
             <div class="body">
                 <div class="authors">
                     <div class="username"><a href="">Paula.L</a></div>
@@ -118,8 +118,8 @@
         </div>
         <!--Reply Area-->
         <div class="comment-area hide" id="reply-area">
-            <textarea name="reply" id="comment-input" placeholder="reply here ... "></textarea>
-            <input type="submit" value="submit">
+            <textarea name="reply" id="reply-input" placeholder="reply here ... "></textarea>
+            <input type="button" value="submit">
         </div>
 
 
@@ -155,9 +155,9 @@
             </div>
         </div>
         <!--Reply Area-->
-        <div id="comment-input" class="comment-area hide">
+        <div class="comment-area hide" id="comment-input-2">
             <textarea name="reply" id="" placeholder="reply here ... "></textarea>
-            <input type="submit" value="submit">
+            <input type="button" value="submit">
         </div>
         
 
