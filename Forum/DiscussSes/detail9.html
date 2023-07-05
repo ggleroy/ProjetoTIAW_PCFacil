@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style copy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
@@ -18,8 +18,8 @@
                 <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="forums.html">Forums</a></li>
-                    <li class="nav-item"><a href="posts.html">Posts</a></li>
-                    <li class="nav-item"><a href="detail.html">Discussões</a></li>
+
+                    
                 </ul>
             </nav>
             <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
@@ -47,29 +47,29 @@
         <div class="topic-container">
             <!--Original thread-->
             <div class="head">
-                <div class="authors">João Pedro</div>
-                <div class="content">Tópico: Mudança de profissão (Read 1325 Times)</div>
+                <div class="authors">IsabelaLima</div>
+                <div class="content">Tópico: Desafios em incorporar a teleterapia em minha prática profissional (Read 1325 Times)</div>
             </div>
 
             <div class="body">
                 <div class="authors">
-                    <div class="username"><a href="">joaoP.97</a></div>
-                    <div>Desing gráfico</div>
+                    <div class="username"><a href="">IsabelaLima</a></div>
+                    <div>terapeuta ocupacional</div>
                     <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
                     <div>Posts: <u>653</u></div>
                     <div>Points: <u>8545</u></div>
                 </div>
                 <div class="content">
-                    Mudança de Profissão
-                    <br>Durante anos, segui seguiu uma carreira que, inicialmente, parecia promissora. Investi tempo,
-                    esforço e energia no meu trabalho, buscando sempre a excelência e o reconhecimento. No entanto, com o
-                    passar do tempo, as tarefas se tornaram monótonas e a sensação de estagnação começou a corroer minha motivação.
+                    Desafios em incorporar a teleterapia em minha prática profissional
+                    <br>Sou terapeuta ocupacional e enfrento desafios em incorporar a teleterapia em minha prática profissional,
+                    pois me sinto desconfortável com o uso de tecnologias de videoconferência.
+                    Sou uma terapeuta ocupacional dedicada, mas com a crescente demanda por serviços de saúde online,
+                    reconheçe a necessidade de incorporar a teleterapia em minha prática. No entanto, me sinto
+                    desconfortável com o uso de tecnologias de videoconferência e temo que isso possa afetar a qualidade
+                    do tratamento que ofereço aos meus pacientes. 
                     
                     <br><br>
-                    O medo de mudar de profissão é alimentado por uma série de preocupações. Eu se pergunto se tenho as
-                    habilidades necessárias para ser bem-sucedido em uma nova área, se seria capaz de sustentar-me financeiramente
-                    durante a transição e se estaria fazendo a escolha certa. A incerteza do desconhecido paralisa meus pensamentos,
-                    deixando-me inseguro e incapaz de dar o próximo passo.
+                    
                     <br>
                     <hr>
                     Alguma opinião ou pessoa passando pelo mesmo?
@@ -83,12 +83,12 @@
 
         <!--Comment Area-->
         <div class="comment-area hide" id="comment-area">
-            <textarea name="comment" id="comment-input" placeholder="comment here ... "></textarea>
-            <input type="button" value="submit" onclick="submitComment()">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
         </div>
-        
+
         <!--Comments Section-->
-        <div class="comments-container" id="comment-list">
+        <div class="comments-container">
             <div class="body">
                 <div class="authors">
                     <div class="username"><a href="">Paula.L</a></div>
@@ -118,8 +118,8 @@
         </div>
         <!--Reply Area-->
         <div class="comment-area hide" id="reply-area">
-            <textarea name="reply" id="reply-input" placeholder="reply here ... "></textarea>
-            <input type="button" value="submit">
+            <textarea name="reply" id="comment-input" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
         </div>
 
 
@@ -155,9 +155,9 @@
             </div>
         </div>
         <!--Reply Area-->
-        <div class="comment-area hide" id="comment-input-2">
+        <div id="comment-input" class="comment-area hide">
             <textarea name="reply" id="" placeholder="reply here ... "></textarea>
-            <input type="button" value="submit">
+            <input type="submit" value="submit">
         </div>
         
 
@@ -168,6 +168,6 @@
     <footer>
         <span>&copy;  Pc Facil | All Rights Reserved</span>
     </footer>
-    <script src="main.js"></script>
+    <script src="details.js"></script>
 </body>
 </html>
