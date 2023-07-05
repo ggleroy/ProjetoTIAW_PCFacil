@@ -29,7 +29,7 @@ header {
     border-radius: 50%;
     background-color: rgb(51, 51, 146); /*cor do botão*/
     color: white;                       /* cor do texto do botão*/
-    font-size: 16px;
+    font-size: 11px;
     font-weight: bold;
     margin-right: 10px;
     display: flex;
@@ -57,11 +57,10 @@ header {
     max-height: 100%;
   }
 
-
-
-  /* background do video (bugado): 
-
-  .background-active {
-    background-color:rgb(74, 74, 163);
+  #description-container {
+  position: absolute;
+  left: 50%;
+  top: 69%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
   }
-  */

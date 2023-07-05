@@ -1,21 +1,24 @@
 {
-    "videos": [ 
-      {
-        "title": "Video 1",
-        "url": ""
-      },
-      {
-        "title": "Video 2",
-        "url": "https://www.youtube.com/watch?v=xBIowQ0WaR8"
-      },
-      {
-        "title": "Video 3",
-        "url": "https://www.youtube.com/watch?v=VIDEO_ID_3"
-      },
-      {
-        "title": "Video 4",
-        "url": "https://www.youtube.com/watch?v=GwLpaf3q6oA"
-      }
-    ]
-  }
-  
+  "videos": [
+    {
+      "title": "Video 1",
+      "url": "https://www.youtube.com/watch?v=cC-MrvE9HpM",
+      "description": "Descrição do Video 1"
+    },
+    {
+      "title": "Video 2",
+      "url": "https://www.youtube.com/watch?v=yMbbpsfYy8g",
+      "description": "Descrição do Video 2"
+    },
+    {
+      "title": "Video 3",
+      "url": "https://www.youtube.com/watch?v=TukNL7VMxJI&t=958s",
+      "description": "video provisorio para a pessoa ter uma ideia de ooq combina com oq"
+    },
+    {
+      "title": "Video 4",
+      "url": "https://www.youtube.com/watch?v=GwLpaf3q6oA",
+      "description": "Descrição do Video 4"
+    }
+  ]
+}
